@@ -5,10 +5,6 @@ date: "December 12, 2017"
 output: html_document
 ---
 
-```{r setup}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 ## R Loading and processing the data
 
 The following R code uploads the file "activity.csv" into the variable "ac", loads the dplyr package, and converts its date column from factors into R date formats:
